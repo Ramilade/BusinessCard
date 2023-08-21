@@ -21,7 +21,7 @@ export default function App() {
   return (
     <ImageBackground source={require('./flames.jpg')} style={styles.imageBackground}>
       <View style={styles.container}>
-        <Text style={styles.header}>Rami Ifaoui - Business Card</Text>
+        <Text style={styles.header}>Rami Ifaoui - Business Card{"\nComputer Science Student"}</Text>
         <StatusBar style="auto" />
         <Button title="Press For Contact Info" onPress={handlePress} />
 
